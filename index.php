@@ -3,7 +3,7 @@
 include ("conexao.php");
 
 
-$sql = "SELECT * FROM contatos;";
+$sql = "SELECT * FROM usuarios;";
 
 $resultado = mysqli_query($conexao,$sql);
 
